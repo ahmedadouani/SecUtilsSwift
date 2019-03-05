@@ -6,15 +6,15 @@ This Library makes it easier for a developer to import public keys from an exter
 
 This library is based on CryptoExportImportManager class developed by Ignacio Nieto Carvajal (http://digitalleaves.com)
 
-In addition to this, SecUtilsSwift gives a simple API to store passwords (secrets data like token, ...etc) 
+In addition, SecUtilsSwift gives a simple API to store passwords (secret data like token, ...etc) 
 
-Also, it is possible to generate keys, encrypt and descrypt with AES 256 symetric algorithm. 
-This library offers, also, an api to generate RSA2048, encrypt ans decrypt with this algo. 
+Furthermore, it is possible to generate keys, encrypt and descrypt with AES 256 symetric algorithm. 
+This library offers an api to generate RSA2048 keys, encrypt and decrypt by this algorithm. 
 
-The couple RSA2048 and AES265 makes more secure the data communicated between server and the iOS application.
-I can mention the example of secruring the payload in Push Notification. 
+The couple RSA2048 and AES265 makes more secure the data communicated between web server and iOS application.
+I can mention the example of securing the payload in Push Notification. 
 For more details :
-https://www.pushwoosh.com/secure-pushes/
+https://www.pushwoosh.com/secure-pushes/ and 
 https://medium.com/engineering-at-tink/encrypted-notifications-on-ios-9a87d8765e1d
 
 ## License
